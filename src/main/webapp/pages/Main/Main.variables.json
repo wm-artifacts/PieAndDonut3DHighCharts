@@ -1,0 +1,55 @@
+{
+  "mvChartdataset" : {
+    "_id" : "wm-mvChartdataset-wm.Variable-1716971454376",
+    "name" : "mvChartdataset",
+    "owner" : "Page",
+    "category" : "wm.Variable",
+    "dataBinding" : [ ],
+    "dataSet" : [ {
+      "name" : "Chrome",
+      "y" : 70.67,
+      "sliced" : true,
+      "selected" : true
+    }, {
+      "name" : "Edge",
+      "y" : 14.77
+    }, {
+      "name" : "Firefox",
+      "y" : 4.86
+    }, {
+      "name" : "Safari",
+      "y" : 2.63
+    }, {
+      "name" : "Internet Explorer",
+      "y" : 1.53
+    }, {
+      "name" : "Opera",
+      "y" : 1.4
+    }, {
+      "name" : "Sogou Explorer",
+      "y" : 0.84
+    }, {
+      "name" : "QQ",
+      "y" : 0.51
+    }, {
+      "name" : "Other",
+      "y" : 2.6
+    } ],
+    "type" : "entry",
+    "isList" : true,
+    "twoWayBinding" : false,
+    "saveInPhonegap" : false
+  },
+  "supportedLocale" : {
+    "_id" : "wm-wm.Variable1402640443182",
+    "name" : "supportedLocale",
+    "owner" : "Page",
+    "category" : "wm.Variable",
+    "dataSet" : {
+      "en" : "English"
+    },
+    "type" : "string",
+    "isList" : false,
+    "saveInPhonegap" : false
+  }
+}

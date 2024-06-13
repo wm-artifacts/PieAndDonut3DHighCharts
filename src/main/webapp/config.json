@@ -1,0 +1,125 @@
+{
+  "displayName" : "PieAndDonut3DCharts",
+  "group" : "",
+  "iconUrl" : "/resources/images/imagelists/prefab-icon.png",
+  "resources" : {
+    "styles" : [ "/pages/Main/Main.css" ],
+    "scripts" : [ "/resources/highcharts/highcharts.js", "/resources/highcharts/highcharts-3d.js", "/resources/highcharts/modules/exporting.js", "/resources/highcharts/modules/export-data.js", "/resources/highcharts/modules/accessibility.js" ]
+  },
+  "properties" : {
+    "inputdataset" : {
+      "type" : "object",
+      "displayName" : "Input dataset",
+      "description" : "Input data to the chart prefab",
+      "bindable" : "in-bound",
+      "isList" : false,
+      "value" : "bind:Variables.mvChartdataset.dataSet",
+      "widget" : "string",
+      "show" : true,
+      "showAt" : "",
+      "disabled" : false
+    },
+    "title" : {
+      "type" : "string",
+      "displayName" : "Title",
+      "description" : "Title for chart",
+      "bindable" : "in-bound",
+      "widget" : "string",
+      "show" : true,
+      "showAt" : "",
+      "disabled" : false
+    },
+    "subtitle" : {
+      "type" : "string",
+      "displayName" : "Subtitle",
+      "description" : "Subtitle for chart",
+      "bindable" : "in-bound",
+      "widget" : "string",
+      "show" : true,
+      "showAt" : "",
+      "disabled" : false
+    },
+    "charttype" : {
+      "type" : "string",
+      "displayName" : "Chart type",
+      "description" : "Define type of the chart",
+      "bindable" : "in-bound",
+      "value" : "Pie",
+      "widget" : "list",
+      "options" : [ "Pie", "Donut" ],
+      "show" : true,
+      "showAt" : "",
+      "disabled" : false
+    },
+    "showlegend" : {
+      "type" : "string",
+      "displayName" : "Show legend",
+      "description" : "Shows legend in charts",
+      "bindable" : "in-bound",
+      "value" : "True",
+      "widget" : "list",
+      "options" : [ "True", "False" ],
+      "show" : true,
+      "showAt" : "",
+      "disabled" : false
+    },
+    "legendalingment" : {
+      "type" : "string",
+      "displayName" : "Legend alingment",
+      "description" : "Set legend alingment for the charts",
+      "bindable" : "in-bound",
+      "value" : "center",
+      "widget" : "list",
+      "options" : [ "left", "center", "right" ],
+      "show" : true,
+      "showAt" : "",
+      "disabled" : false
+    },
+    "legendposition" : {
+      "type" : "string",
+      "displayName" : "Legend position",
+      "description" : "Sets legend position to the chart",
+      "bindable" : "in-bound",
+      "value" : "bottom",
+      "widget" : "list",
+      "options" : [ "top", "bottom" ],
+      "show" : true,
+      "showAt" : "",
+      "disabled" : false
+    },
+    "height" : {
+      "type" : "number",
+      "displayName" : "Height",
+      "description" : "Sets height to chart",
+      "bindable" : "in-bound",
+      "widget" : "string",
+      "show" : true,
+      "showAt" : "",
+      "disabled" : false
+    },
+    "width" : {
+      "type" : "number",
+      "displayName" : "Width",
+      "description" : "Sets width to the chart",
+      "bindable" : "in-bound",
+      "widget" : "string",
+      "show" : true,
+      "showAt" : "",
+      "disabled" : false
+    },
+    "exporting" : {
+      "type" : "string",
+      "displayName" : "Show export menu",
+      "description" : "Enables export option menu in the chart",
+      "bindable" : "in-bound",
+      "value" : "True",
+      "widget" : "list",
+      "options" : [ "True", "False" ],
+      "show" : true,
+      "showAt" : "",
+      "disabled" : false
+    }
+  },
+  "events" : { },
+  "methods" : { }
+}
